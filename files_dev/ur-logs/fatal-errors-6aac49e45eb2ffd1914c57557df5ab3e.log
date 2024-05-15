@@ -1,0 +1,10 @@
+2024-04-29T13:20:58+03:00 CRITICAL Uncaught Error: Cannot unset string offsets in /code/wp-content/plugins/ultimate-member/includes/core/class-fields.php:346
+Stack trace:
+#0 /code/wp-content/plugins/ultimate-member/includes/core/class-fields.php(4969): um\core\Fields->delete_field_from_db('1')
+#1 /code/wp-includes/class-wp-hook.php(324): um\core\Fields->do_ajax_action('')
+#2 /code/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /code/wp-admin/admin-ajax.php(192): do_action('wp_ajax_um_do_a...')
+#5 {main}
+  thrown in /code/wp-content/plugins/ultimate-member/includes/core/class-fields.php on line 346
+
